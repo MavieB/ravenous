@@ -24,8 +24,8 @@ class SearchBar extends React.Component {
       return 'active';
     } else {
       return '';
-    };
     }
+  }
 
   handleSortByChange(sortByOption){
     this.setState({sortBy:sortByOption }); // how does program know that i refer to state mentioned above
